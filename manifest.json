@@ -1,6 +1,7 @@
 {
     "name": "hello world",
     "container": "python",
+    "is_cvmfs": true,
     "pre_processing_stage": "bash lookaround.sh",
     "execution_stage": "/cvmfs/cybergis.illinois.edu/software/conda/cybergisx/python3-0.9.0/bin/python pi.py",
     "post_processing_stage": "ls",
