@@ -3,7 +3,7 @@
     "container": "cybergisx/0.8.0",
     "connector": "SingCVMFSConnector",
     "pre_processing_stage": "bash lookaround.sh",
-    "execution_stage": "/cvmfs/cybergis.illinois.edu/software/conda/cybergisx/python3-0.9.0/bin/python pi.py",
+    "execution_stage": "python pi.py",
     "post_processing_stage": "ls",
     "slurm_input_rules": {
         "time": {
