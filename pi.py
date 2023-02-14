@@ -1,4 +1,5 @@
 import random
+import matplotlib.pyplot as plt
 
 print(f"Random is at: {random.__file__}")
 INTERVAL = 1000
