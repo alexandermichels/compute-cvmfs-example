@@ -1,6 +1,6 @@
 {
     "name": "hello world",
-    "container": "cybergisx/0.8.0",
+    "container": "cybergisx/python3-0.8.0",
     "connector": "SingCVMFSConnector",
     "pre_processing_stage": "bash lookaround.sh",
     "execution_stage": "python pi.py",
